@@ -1,0 +1,211 @@
+/*=============================================================================================	
+    Company    : PT Web Architect Technology - webarq.com
+    Document   : Stylesheet
+    Author     : Iqbal Wahyudi Pratama - iqbalwahyudip.com
+==============================================================================================*/
+@import "sass-lib";
+
+@media all and (max-width: 1600px) {
+	header{
+		.logo{
+			img{width: 150px;}
+		}
+		.nav-right{
+			.box-burg-nav{
+				margin-top: 40px;
+				.bg-burgnav{top: -210px;width: 390px;}
+			}
+		}
+	}
+	.banner-home{
+		.wrapper{height: 640px;}
+		figure{
+			top: -270px;
+			.obj{
+				span{
+					&.objcircle-green{margin-top: 870px;}
+				}
+			}
+		}
+	}
+	.product-home{
+		padding-top: 230px;
+		.objproduct{
+			span{
+				&.stargreytop{margin-top: 100px;}
+				&.circlegreen{margin-top: 65px;}
+				&.objprodtopline{margin-top: 90px;}
+				&.trianglesm-grey{margin-top: 300px;}
+				&.circlesm-grey{margin-top: 285px;}
+				&.stargreytopsm{margin-top: 400px;}
+				&.trianglemd-grey{margin-top: 530px;}
+			}
+		}
+	}
+	.video-home{
+		.wrapper{
+			.objvidhome{
+				span{
+					&.objvidleft{left: -245px;}
+					&.linesbgvid{margin-top: -275px;}
+					&.trianglesamakaki{margin-top: -148px;}
+				}
+			}
+		}
+	}
+}
+
+@media all and (max-width: 1400px) {
+	header{
+		.nav-right{
+			.drop-nav-head{
+				top: 120px;right: 115px;
+				.in-drop-nav-head{
+					a{font-size: 24px;line-height: 30px;margin-bottom: 36px;}
+				}
+			}
+			.box-burg-nav{
+				right: 12%;
+				&.opennav{
+					.bg-burgnav{width: 1250px;height: 1050px;}
+				}
+			}
+		}
+	}
+	.banner-home{
+		.objbanner{
+			span{
+				&.objtriangle-grey{margin: 135px 0px 0px 28%;}
+			}
+		}
+		figure{
+			top: -299px;right: -757px;
+			img{width: 1400px;}
+		}
+	}
+	.product-home{
+		.objproduct{
+			span{
+				&.circlegreen{margin-top: 100px;}
+			}
+		}
+		.bgprodhome{
+			span{
+				&.objcircle-green{margin-top: 33px;}
+			}
+		}
+	}
+	.historybox{
+		.slider-history{margin-top: -140px;}
+	}
+	.slider-history{
+		.list{
+			width: 700px;height: 690px;background-size: 100%;background-position: center 45px;
+			h3{font-size: 22px;line-height: 30px;margin-bottom: 15px;}
+			p{font-size: 14px;line-height: 20px;}
+			.his-obj{
+				span{
+					&.his-objleft{margin-top: 150px;}
+					&.his-circle{margin: 265px 0px 0px 445px;}
+					&.his-objleftmid{margin-top: 130px;}
+					&.his-circlexs{margin-top: 150px;}
+					&.his-triangle{margin: 420px 0px 0px -240px;}
+					&.his-objrightmd{margin: 390px 0px 0px 210px;}
+					&.his-circlesmtwo{margin-top: 188px;}
+					&.his-objrighttwo{margin: 450px 0px 0px 170px;}
+				}
+			}
+			.in-list{padding: 0px 180px;}
+			&.his2{
+				background-position: center 25px;
+				&:before{left:9%;right: 11%;}
+			}
+			&.his3{
+				background-position: -25px center;
+				&:before{left:10%;}
+			}
+		}
+		.slick-dots{margin-top: -130px;}
+		.slick-track{
+			&:before{right:89%;}
+		}
+	}
+	.varianbox{
+		padding-top: 110px;
+		.obj-varian{
+			span{
+				&.circle-grey{margin-top: 50px;}
+				&.circlesm-grey{margin-top: 140px;left: 68%;}
+				&.triangle-grey{margin-top: 105px;}
+			}
+		}
+	}
+	.ttl-content{margin-bottom: 30px;}
+
+	.std-content{
+		h2{margin-bottom: 30px;font-size: 34px;line-height: 40px;}
+	}
+
+	.varian-list{
+		.list{
+			.desc{margin-top: -10px;}
+		}
+		&.threelist{
+			.list{
+				.desc{margin-top: 0px;}
+			}
+		}
+	}
+	.variandetialbox{
+		padding-top: 120px;
+		.obj-variandet{
+			span{
+				&.star-grey{margin-top: 70px;}
+				&.triangle-grey{margin-top: 130px;}
+			}
+		}
+		.wrapper{
+			.img{
+				figure{
+					margin-left: 0px;
+					&:before{background-size:100%;width: 680px;height: 670px;right: -25px;top: -95px;}
+				}
+				&.var2
+					figure{
+						&:before{right: -14px;}
+					}
+				&.var3{
+					figure{
+						&:before{top:-120px;right: -10px;}
+					}
+				}
+			}
+			.desc{
+				p{font-size: 14px;line-height: 24px;}
+				table{
+					tr{
+						td{font-size: 14px;line-height: 24px;}
+					}
+				}
+			}
+		}
+	}
+	.maagmeter-logo{
+		&.md{
+			width: 220px;
+			img{width: 81px;}
+			span{font-size: 38px;line-height: 32px;}
+		}
+	}
+	.maagmeter-qst{
+		padding-top: 100px;
+		h4{margin-bottom: 25px;}
+	}
+	.slider-maagmeter{margin-bottom: 20px;}
+	.maagmeter-result{padding-top: 100px;}
+	.img-result{
+		margin-bottom: 45px;
+		&:before{width: 618px;background-size: 100%;top: -160px;}
+		img{width: 350px;}
+	}
+}
