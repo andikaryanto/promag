@@ -54,33 +54,49 @@
 
 
 .video-home.content-description-home {
-  padding-top: 20px !important;
+  padding-top: 40px !important;
+  padding-bottom: 0px !important;
+  margin-bottom: 70px !important;
 }
+
+@import "../fonts/lato/stylesheet.css";
+
+.container-promag {  
+  color: #333;
+  font-size: 20px;
+  font-family: "Lato"; 
+  position: relative;
+  overflow-x: hidden;
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
 
 .container-promag h1 {
     color: #43b02a;
-    font-size: 28px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 700;
     margin-bottom: 30px;
     text-align: center;
   }
   
   .container-promag h3 {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 600;
     margin-bottom: 10px;
     margin-top: 30px;
   }
   
   .container-promag h5 {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
     margin-top: 30px;
   }
   
   .container-promag p {
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 20px;
   }
   
   .container-promag {

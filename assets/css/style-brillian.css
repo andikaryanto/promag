@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700');
+@font-face {
+    font-family: 'Berlin Sans FBB';
+    src: url('fonts/BerlinSansFB-Bold.woff2') format('woff2'),
+        url('fonts/BerlinSansFB-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Berlin Sans FBR';
+    src: url('fonts/BerlinSansFB-Reg.woff2') format('woff2'),
+        url('fonts/BerlinSansFB-Reg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url('fonts/CaviarDreams.woff2') format('woff2'),
+        url('fonts/CaviarDreams.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Caviar Dreams BI';
+    src: url('fonts/CaviarDreams-BoldItalic.woff2') format('woff2'),
+        url('fonts/CaviarDreams-BoldItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Caviar Dreams I';
+    src: url('fonts/CaviarDreams-Italic.woff2') format('woff2'),
+        url('fonts/CaviarDreams-Italic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Caviar Dreams B';
+    src: url('fonts/CaviarDreams-Bold.woff2') format('woff2'),
+        url('fonts/CaviarDreams-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Avenir Next LT Pro Bold';
+    src: url('fonts/AvenirNextLTPro-BoldCn.eot');
+    src: url('fonts/AvenirNextLTPro-BoldCn.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AvenirNextLTPro-BoldCn.woff2') format('woff2'),
+        url('fonts/AvenirNextLTPro-BoldCn.woff') format('woff'),
+        url('fonts/AvenirNextLTPro-BoldCn.ttf') format('truetype'),
+        url('fonts/AvenirNextLTPro-BoldCn.svg#AvenirNextLTPro-BoldCn') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro Bold';
+    src: url('fonts/AvenirNextLTPro-Bold.eot');
+    src: url('fonts/AvenirNextLTPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AvenirNextLTPro-Bold.woff2') format('woff2'),
+        url('fonts/AvenirNextLTPro-Bold.woff') format('woff'),
+        url('fonts/AvenirNextLTPro-Bold.ttf') format('truetype'),
+        url('fonts/AvenirNextLTPro-Bold.svg#AvenirNextLTPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro DemiCn';
+    src: url('fonts/AvenirNextLTPro-DemiCn.eot');
+    src: url('fonts/AvenirNextLTPro-DemiCn.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AvenirNextLTPro-DemiCn.woff2') format('woff2'),
+        url('fonts/AvenirNextLTPro-DemiCn.woff') format('woff'),
+        url('fonts/AvenirNextLTPro-DemiCn.ttf') format('truetype'),
+        url('fonts/AvenirNextLTPro-DemiCn.svg#AvenirNextLTPro-DemiCn') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('fonts/AvenirNextLTPro-Regular.eot');
+    src: url('fonts/AvenirNextLTPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AvenirNextLTPro-Regular.woff2') format('woff2'),
+        url('fonts/AvenirNextLTPro-Regular.woff') format('woff'),
+        url('fonts/AvenirNextLTPro-Regular.ttf') format('truetype'),
+        url('fonts/AvenirNextLTPro-Regular.svg#AvenirNextLTPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro Demi';
+    src: url('fonts/AvenirNextLTPro-Demi.eot');
+    src: url('fonts/AvenirNextLTPro-Demi.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AvenirNextLTPro-Demi.woff2') format('woff2'),
+        url('fonts/AvenirNextLTPro-Demi.woff') format('woff'),
+        url('fonts/AvenirNextLTPro-Demi.ttf') format('truetype'),
+        url('fonts/AvenirNextLTPro-Demi.svg#AvenirNextLTPro-Demi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro It';
+    src: url('fonts/AvenirNextLTPro-It.eot');
+    src: url('fonts/AvenirNextLTPro-It.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AvenirNextLTPro-It.woff2') format('woff2'),
+        url('fonts/AvenirNextLTPro-It.woff') format('woff'),
+        url('fonts/AvenirNextLTPro-It.ttf') format('truetype'),
+        url('fonts/AvenirNextLTPro-It.svg#AvenirNextLTPro-It') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Avenir Medium';
+    src: url('fonts/Avenir-Medium.woff2') format('woff2'),
+        url('fonts/Avenir-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.button-artikel-area a p{
+	color: #000000;
+	font-size: 12px;
+}
+
+.button-artikel-area a img{
+	height: 13px;
+	width: auto;
+}
+
+p.article-small-text{
+	font-size: 13px;
+	color: #000000;
+	margin-bottom: 0;
+	font-weight: 400;
+	font-family: 'Caviar Dreams';
+}
+
+
+p.article-date{
+	font-size: 13px;
+	margin-bottom: 0;
+	color: #c7c7c7;
+	font-family: 'Caviar Dreams';
+}
+p.article-date-detail{
+	font-size: 15px;
+	margin-bottom: 0;
+	color: #c7c7c7;
+	font-family: 'Berlin Sans FBR';
+}
+
+.article-area img{
+	width:100%;
+	min-height: 115px;
+	object-fit: cover;
+}
+
+.pagination-area .page-link{
+	border: none;
+	color: #c7c7c7;
+	font-size: 14px;
+}
+
+.pagination-area .page-item.active .page-link{
+	color: #82be42;
+	background: none;
+	border: none;
+	font-size: 16px;
+	margin-bottom: -1px;
+}
+
+.pagination-area ul{
+	align-items: flex-end;
+}
+
+.select-sort-by{
+	background: #fff url(../img/sort-by.png) no-repeat right 0.75rem center;
+	padding: 0.375rem 2.75rem 0.375rem 0.75rem;
+	font-size: 12px;
+	border: 1px solid #000;
+	border-radius: 0;
+	font-family: 'Caviar Dreams B';
+}
+
+.select-category{
+	background: #fff url(../img/category.png) no-repeat right 0.75rem center;
+	padding: 0.375rem 2.75rem 0.375rem 0.75rem;
+	font-size: 14px;
+	border: 1px solid #000;
+	border-radius: 0;
+}
+
+a.back-to{
+	color: #4a4a4a;
+	font-size: 14px;
+	font-family: 'Caviar Dreams B';
+}
+.article-title{
+	/* font-size: 16px; */
+	margin-bottom: 5px;
+	color: #036242;
+    font-family: 'Caviar Dreams';
+    font-weight: bold;
+}
+
+.artikel-detail p.article-title{
+	font-size: 22px;
+	margin-bottom:0px;
+}
+
+.artikel-detail .content-area{
+	font-size: 15px;
+	color: #4a4a4a;
+	font-family: 'Avenir Next LT Pro';
+}
+.artikel-detail p iframe{
+	width:100%;
+}
+.tagcloud01 ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.tagcloud01 ul li {
+	display: inline-block;
+	margin: 0 .3em .3em 0;
+	padding: 0;
+}
+.tagcloud01 ul li a {
+	display: inline-block;
+	height: 28px;
+	min-width: 80px;
+	text-align: center;
+	line-height: 28px;
+	padding: 0 1em;
+	background-color: #fff;
+	border: 1px solid #979797;
+	border-radius: 25px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	color: #555;
+	font-size: 13px;
+	text-decoration: none;
+	-webkit-transition: .2s;
+	transition: .2s;
+	font-family: 'Rubik';
+}
+
+/*.tagcloud01 ul li a:hover {
+	background-color: #3498db;
+	border: 1px solid #3498db;
+	color: #fff;
+}*/
+
+.social-share{
+	border-bottom: 2px solid #d8d8d8;
+}
+
+.artikel-terkait-line{
+	border-bottom: 1px solid #d8d8d8;
+}
+
+.artikel-terkait img{
+	height: 118px;
+	object-fit: cover;
+}
+
+.artikel-terkait p.article-title{
+	font-size: 17px;
+}
+
+.artikel-terkait .article-excerpt{
+	font-size: 13px;
+	color: #4a4a4a;
+	font-family: 'Caviar Dreams B';
+}
+
+.artikel-terkait .article-excerpt p{
+	margin-bottom: 0;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered img{
+	height: 60px;
+}
+
+.img-video-thumbnail{
+	/* height: 205px; */
+	height: 250px;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+button.btn-close-modal{
+	background: rgb(217, 90, 76);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: -10px;
+    opacity: 1;
+    z-index: 99;
+    right: -10px;
+    border-radius: 25px;
+}
+
+button.btn-close-modal span{
+	color: #ffffff;
+	height: 24px;
+	margin-top: -6px;
+}
+
+.nav-video .nav-link{
+	color: #646464;
+	opacity: 0.41;
+	font-size: 20px;
+	text-transform: uppercase;
+	border-bottom: 3px solid transparent;
+	font-family: 'Caviar Dreams B';
+	
+}
+
+.nav-video .nav-link.active{
+	color: #01ab52;
+	border-bottom: 3px solid #01ab52;
+	opacity: 1;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	background-color:transparent;
+}
+
+.cl-p{
+	color: #55490e;
+}
+
+.form-contact select{
+	border-radius: 0;
+	border: 1px solid #e2e2e2;
+	background: #fff url(../img/select-green.png) no-repeat right 0rem center;
+	text-align-last: center;
+	padding-right: 3.5em;
+}
+
+.form-contact input, .form-contact textarea{
+	border-radius: 0;
+	border: 1px solid #e2e2e2;
+}
+
+.btn-contact-form-1{
+	background-color: #82be42;
+	border: 1px solid #82be42;
+	border-radius: 0;
+	color: #ffffff;
+}
+
+.btn-contact-form-2{
+	background-color: #ffffff;
+	border: 1px solid #55490e;
+	border-radius: 0;
+	color: #55490e;
+}
+
+.title-temukan{
+	color: #82be42;
+    font-family: "oswaldbold";
+    font-size: 23px;
+}
+
+.line-temukan{
+	height: 3px;
+	width: 40%;
+	background-color: #82be42;
+}
+
+p.search-result{
+	color: #c7c7c7;
+	font-size: 12px;
+}
+
+p.search-result span{
+	color: #000000;
+}
+
+.maag-result-area{
+	border-radius: 3px;
+	border-width: 15px;
+	border-style: solid;
+}
+
+.maag-result-image-area img{
+	/* height: 100%; */
+	object-fit: contain;
+	/* object-position: top; */
+	/* width: 80%; */
+	width: 203px;
+    height: 301px;
+}
+
+.maag-result-image-area{
+	margin-top: -45%;
+}
+
+.maag-result-title-area h4{
+	font-family: 'Caviar Dreams';
+	font-size: 26px;
+}
+
+.maag-result-title-area h2{
+	font-family: 'Caviar Dreams B';
+	font-size: 36px;
+}
+
+.maag-result-title-area .line-dotted{
+	border-bottom: 2px dotted #abbbb5;
+	width: 100%;
+}
+
+.maag-result-content-area {
+	font-size: 22px;
+	line-height: 1.5;
+	text-align: center;
+	font-family: 'Caviar Dreams';
+	color: #4a4a4a;
+}
+
+.maag-result-list-area{
+	text-align: left;
+	font-family: 'Caviar Dreams';
+	font-size: 20px;
+	max-height:300px;
+	overflow: auto;
+}
+.maag-result-list-area ul li{
+	margin-bottom:10px;
+}
+
+.maag-result-name-product span{
+	font-family: "oswaldbold";
+	font-size: 25px;
+	margin-top: 2px;
+}
+
+.maag-result-name-product>img{
+	width: 125px !important;
+	height: 37px;
+	object-fit: contain;
+}
+
+.btn-maag-result{
+    font-family: "latomedium";
+    font-size: 16px;
+    border-radius: 26.6px;
+    background-image: linear-gradient(to bottom, #fcd43c, #f8aa1c);
+}
+
+.owl-maag-meter .owl-prev{
+	width: 16px;
+	height: 30px;
+	background: #82be42 !important;
+	color: #fff !important;
+	margin: 0px !important;
+	-webkit-border-top-right-radius: 25px !important;
+	-webkit-border-bottom-right-radius: 25px !important;
+	-moz-border-radius-topright: 25px !important;
+	-moz-border-radius-bottomright: 25px !important;
+	border-top-right-radius: 25px !important;
+	border-bottom-right-radius: 25px !important;
+}
+
+.owl-maag-meter .owl-prev i{
+	margin-left: -2px;
+}
+
+.owl-maag-meter .owl-next i{
+	margin-right: -2px;
+}
+
+.owl-maag-meter .owl-next{
+	width: 16px;
+	height: 30px;
+	background: #82be42 !important;
+	color: #fff !important;
+	margin: 0px !important;
+	-webkit-border-top-left-radius: 25px !important;
+	-webkit-border-bottom-left-radius: 25px !important;
+	-moz-border-radius-topleft: 25px !important;
+	-moz-border-radius-bottomleft: 25px !important;
+	border-top-left-radius: 25px !important;
+	border-bottom-left-radius: 25px !important;
+}
+
+.maag-result-slider{
+	background: #f5f5f5;
+}
+
+.owl-maag-meter{
+}
+
+.bg-artikel{
+	background: #f5f8f1;
+}
+
+.artikel-terkait:last-child .artikel-terkait-line{
+	border: none;
+}
+
+.search-box .search-text{
+	border-radius: 25px;
+}
+
+.search-box .input-group-append .btn-search{
+	-webkit-border-top-right-radius: 25px;
+	-webkit-border-bottom-right-radius: 25px;
+	-moz-border-radius-topright: 25px;
+	-moz-border-radius-bottomright: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+.sort-artikel-result{
+	color:#00833f;
+	font-family: 'Caviar Dreams BI';
+	font-size:14px;
+	border:1px dashed #43b02a;
+	background:#f8fef1;
+}

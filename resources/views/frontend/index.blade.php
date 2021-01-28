@@ -121,6 +121,13 @@
 </section>
 
 <section class="video-home content-description-home">
+    
+<div class="wrapper">
+
+<div class="objvidhome">
+            <span class="linesbgvid"></span>
+            <span class="starvid"></span>
+</div>
         <div class="container-promag wrapper">
            <div class="container-promag-content">
             <h1>Promag Ampuh Atasi Sakit Maag, Nyeri Lambung dan Perut Kembung</h1>
@@ -163,6 +170,7 @@
             </div>
         </div>
       </div>
+    </section>
 <!-- end of middle -->
 
 
