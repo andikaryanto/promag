@@ -50,3 +50,154 @@
 .pagination .active a:before {
   background: #FFB833;
 }
+
+
+
+.video-home.content-description-home {
+  padding-top: 40px !important;
+  padding-bottom: 0px !important;
+  margin-bottom: 70px !important;
+}
+
+@import "../fonts/lato/stylesheet.css";
+
+.container-promag {  
+  color: #333;
+  font-size: 20px;
+  font-family: "Lato"; 
+  position: relative;
+  overflow-x: hidden;
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+.container-promag h1 {
+    color: #43b02a;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .container-promag h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+  
+  .container-promag h5 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+  
+  .container-promag p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  
+  .container-promag {
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  @media screen and (min-width: 1200px) {
+    .container-promag {
+      height: 205px;
+      overflow: hidden;
+      position: relative;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .container-promag {
+      height: 266px;
+      overflow: hidden;
+      position: relative;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .container-promag {
+      height: 350px;
+      overflow: hidden;
+      position: relative;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .container-promag {
+      height: 452px;
+      overflow: hidden;
+      position: relative;
+    }
+  }
+  
+  .container-promag::before {
+    content: "";
+    bottom: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 0%,
+      white 50%,
+      white 100%
+    );
+    position: absolute;
+    height: 70px;
+    width: 100% !important;
+  }
+  
+  .container-promag.expanded {
+    height: auto;
+    overflow: hidden;
+  }
+  
+  .container-promag.expanded::before {
+    display: none;
+  }
+  
+  .wrapper .button-wrapper {
+    text-align: center;
+  }
+  
+  .wrapper .button-wrapper button {
+    background: none;
+    border: none;
+    color: #43b02a;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  
+  .arrow {
+    border: solid #43b02a;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 10px;
+    margin-top: -10px;
+  }
+  
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-top: 5px;
+    position: absolute;
+  }
+
+  .d-none {
+    display: none !important;
+  }
+  
