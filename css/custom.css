@@ -74,9 +74,14 @@
 
 .container-promag h1 {
     color: #43b02a;
+<<<<<<< HEAD
     font-size: 24px;
     font-weight: 700;
     line-height: 33px;
+=======
+    font-size: 30px;
+    font-weight: 700;
+>>>>>>> 1e7dd1e2d0a9a4975601a82b4d57bd9d71064c0a
     margin-bottom: 30px;
     text-align: center;
   }
@@ -149,7 +154,11 @@
       white 100%
     );
     position: absolute;
+<<<<<<< HEAD
     height: 70px;
+=======
+    height: 60px;
+>>>>>>> 1e7dd1e2d0a9a4975601a82b4d57bd9d71064c0a
     width: 100% !important;
   }
   

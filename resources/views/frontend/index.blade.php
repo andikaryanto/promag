@@ -120,7 +120,6 @@
     </div>
 </section>
 
-
 <section class="video-home content-description-home">
     
 <div class="wrapper">
