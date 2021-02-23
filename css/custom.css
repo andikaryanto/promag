@@ -74,23 +74,18 @@
 
 .container-promag h1 {
     color: #43b02a;
-<<<<<<< HEAD
-    font-size: 24px;
+    font-size: 20px !important;
     font-weight: 700;
     line-height: 33px;
-=======
-    font-size: 30px;
-    font-weight: 700;
->>>>>>> 1e7dd1e2d0a9a4975601a82b4d57bd9d71064c0a
-    margin-bottom: 30px;
+    margin-bottom: 15px !important;
     text-align: center;
   }
   
-  .container-promag h3 {
-    font-size: 24px;
+  .container-promag h2 {
+    font-size: 18px;
     font-weight: 600;
     margin-bottom: 10px;
-    margin-top: 30px;
+    margin-top: 10px;
   }
   
   .container-promag h5 {
@@ -154,11 +149,7 @@
       white 100%
     );
     position: absolute;
-<<<<<<< HEAD
-    height: 70px;
-=======
-    height: 60px;
->>>>>>> 1e7dd1e2d0a9a4975601a82b4d57bd9d71064c0a
+    height: 94px;
     width: 100% !important;
   }
   
