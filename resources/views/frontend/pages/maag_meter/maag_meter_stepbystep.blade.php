@@ -22,7 +22,7 @@
             <div class="indicator-slidemaagmeter"><span></span></div>
             <div class="slider-maagmeter">
                 <div class="list">
-                     <p>Pilih <b>pola makan</b> berikut yang paling sesuai dengan kamu (Bisa memilih lebih dari 1)</p>
+                    <p>Pilih <b>pola makan</b> berikut yang paling sesuai dengan kamu (Bisa memilih lebih dari 1)</p>
                     <div class="box-radio-custom">
                         <div class="ls">
                             <figure><img src="{{asset('images/maagmeter/step1.png')}}" alt=""></figure>
@@ -44,9 +44,29 @@
                             <input type="checkbox" name="makan[4]" value="4">
                             <span>Suka konsumsi gorengan</span>
                         </div>
+                        <div class="ls">
+                            <figure><img src="{{asset('images/maagmeter/step5.png')}}" alt=""></figure>
+                            <input type="checkbox" name="makan[5]" value="5">
+                            <span>Minum kopi</span>
+                        </div>
+                        <div class="ls">
+                            <figure><img src="{{asset('images/maagmeter/step6.png')}}" alt=""></figure>
+                            <input type="checkbox" name="makan[6]" value="6">
+                            <span>Minum alkohol</span>
+                        </div>
+                        <div class="ls">
+                            <figure><img src="{{asset('images/maagmeter/step7.png')}}" alt=""></figure>
+                            <input type="checkbox" name="makan[7]" value="7">
+                            <span>Minum minuman berkarbonasi</span>
+                        </div>
+                        <div class="ls">
+                            <figure><img src="{{asset('images/maagmeter/step8.png')}}" alt=""></figure>
+                            <input type="checkbox" name="makan[8]" value="8">
+                            <span>Makan dalam porsi besar malam hari sebelum tidur</span>
+                        </div>
                     </div>
                 </div>
-                <div class="list">
+                <!-- <div class="list">
                     <p>Pilih <b>pola makan</b> berikut yang paling sesuai dengan kamu (Bisa memilih lebih dari 1)</p>
                     <div class="box-radio-custom">
                         <div class="ls">
@@ -70,7 +90,7 @@
                             <span>Makan dalam porsi besar malam hari sebelum tidur</span>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="list">
                     <p>Pilih <b>gaya hidup</b> berikut yang paling sesuai dengan kamu (Bisa memilih lebih dari 1)</p>
                     <div class="box-radio-custom">
@@ -89,9 +109,24 @@
                             <input type="checkbox" name="gayahidup[3]" value="11">
                             <span>Kurang istirahat</span>
                         </div>
+                        <div class="ls">
+                            <figure><img src="{{asset('images/maagmeter/step12.png')}}" alt=""></figure>
+                            <input type="checkbox" name="gaya[3]" value="12">
+                            <span>Suka minum obat anti radang</span>
+                        </div>
+                        <div class="ls">
+                            <figure><img src="{{asset('images/maagmeter/step13.png')}}" alt=""></figure>
+                            <input type="checkbox" name="gaya[4]" value="13">
+                            <span>Sering minum obat yang mengandung steroid (Contoh pereda nyeri)</span>
+                        </div>
+                        <div class="ls">
+                            <figure><img src="{{asset('images/maagmeter/step14.png')}}" alt=""></figure>
+                            <input type="checkbox" name="gaya[5]" value="14">
+                            <span>Sering terpapar stress berat</span>
+                        </div>
                     </div>
                 </div>
-                <div class="list">
+                <!-- <div class="list">
                     <p>Pilih <b>gaya hidup</b> berikut yang paling sesuai dengan kamu (Bisa memilih lebih dari 1)</p>
                     <div class="box-radio-custom tri-on-tablet">
                         <div class="ls">
@@ -110,7 +145,7 @@
                             <span>Sering terpapar stress berat</span>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- type3 -->
                 <div class="list">
@@ -125,7 +160,7 @@
                             <span>Cepat Kenyang</span>
                         </div>
                         <div class="ls">
-                            <input type="checkbox" name="gejala[3]" value="17">
+                            <input type="checkbox" name="gejala[3]" value="18">
                             <span>Nyeri / perih ulu hati</span>
                         </div>
                         <div class="ls">
@@ -140,42 +175,42 @@
                             <input type="checkbox" name="gejala[6]" value="20">
                             <span>Muntah</span>
                         </div>
-                        <div class="ls">
+                        <!-- <div class="ls">
                             <input type="checkbox" name="gejala[7]" value="21">
                             <span>Mules</span>
-                        </div>
+                        </div> -->
                         <div class="ls">
                             <input type="checkbox" name="gejala[8]" value="22">
-                            <span>Keringat dingin</span>
+                            <span>Rasa terbakar di dada</span>
                         </div>
-                        <div class="ls">
+                        <!-- <div class="ls">
                             <input type="checkbox" name="gejala[9]" value="23">
                             <span>Pusing</span>
-                        </div>
+                        </div> -->
                         <div class="ls">
                             <input type="checkbox" name="gejala[10]" value="24">
                             <span>Aliran balik isi lambung ke rongga mulut</span>
                         </div>
-                        <div class="ls">
+                        <!-- <div class="ls">
                             <input type="checkbox" name="gejala[11]" value="25">
                             <span>Rasa terbakar di ulu hati</span>
-                        </div>
-                        <div class="ls">
-                            <input type="checkbox" name="gejala[12]" value="26">
-                            <span>Sering sakit tenggorokan</span>
-                        </div>
+                        </div> -->
                         <div class="ls">
                             <input type="checkbox" name="gejala[13]" value="27">
                             <span>Rasa pahit di mulut</span>
                         </div>
                         <div class="ls">
+                            <input type="checkbox" name="gejala[12]" value="26">
+                            <span>Sering sakit tenggorokan</span>
+                        </div>
+                        <!-- <div class="ls">
                             <input type="checkbox" name="gejala[14]" value="28">
                             <span>Rasa asam di mulut</span>
-                        </div>
-                        <div class="ls">
+                        </div> -->
+                        <!-- <div class="ls">
                             <input type="checkbox" name="gejala[15]" value="29">
                             <span>Sulit menelan</span>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="list">
