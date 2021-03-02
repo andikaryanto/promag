@@ -19,9 +19,8 @@
         	<input type="hidden" name="user_name" value="{{ $user['name'] }}">
         	<input type="hidden" name="user_age" value="{{ $user['age'] }}">
         	<input type="hidden" name="user_gender" value="{{ $user['gender'] }}">
-            <div class="indicator-slidemaagmeter"><span></span></div>
             <div class="slider-maagmeter">
-                <div class="list">
+                <div class="list slide-1">
                     <p>Pilih <b>pola makan</b> berikut yang paling sesuai dengan kamu (Bisa memilih lebih dari 1)</p>
                     <div class="box-radio-custom">
                         <div class="ls">
@@ -91,7 +90,7 @@
                         </div>
                     </div>
                 </div> -->
-                <div class="list">
+                <div class="list slide-2">
                     <p>Pilih <b>gaya hidup</b> berikut yang paling sesuai dengan kamu (Bisa memilih lebih dari 1)</p>
                     <div class="box-radio-custom">
                         <div class="ls">
@@ -148,7 +147,7 @@
                 </div> -->
 
                 <!-- type3 -->
-                <div class="list">
+                <div class="list slide-3">
                     <p>Gejala manakah yang sering kamu rasakan <b>dalam 6 bulan terakhir</b> ini ?</p>
                     <div class="box-radio-custom sidebyside">
                         <div class="ls">
@@ -213,7 +212,7 @@
                         </div> -->
                     </div>
                 </div>
-                <div class="list">
+                <div class="list slide-4">
                     <p>Sudah berapa lama <b>gejala-gejala</b> tersebut dirasakan ?</p>
                     <div class="side-img-qst">
                         <figure>
@@ -236,7 +235,7 @@
                         </figure>
                     </div>
                 </div>
-                <div class="list">
+                <!-- <div class="list">
                     <p>Apakah gejala-gejala yang dialami tersebut <b>mengganggu aktivitas</b> kamu?</p>
                     <div class="box-radio-custom sidebyside">
                         <div class="ls">
@@ -268,15 +267,43 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="btn-control btn-control-maagmeter">
                 <button type="button" class="btn-rounded btn-mid btn-darkgrey btn-prev">Kembali</button>
                 <button type="button" class="btn-rounded btn-mid btn-greenlight btn-next">Selanjutnya</button>
             </div>
+            <div class="indicator-wrapper">
+                <div class="indicator-slidemaagmeter"><span></span></div>
+                <div class="indicator-text">
+                    <div class="col-wrapper">
+                        <div class="col-1">
+                            <span>Pertanyaan <span class="slide-now">1</span> dari 4</span>
+                        </div>
+                        <div class="col-2">0%</div>
+                    </div>
+                </div>
+            </div>
         </form>
     </div>
 </section>
+
+
+<div class="container-promag wrapper step-by-step-article">
+    <div class="container-promag-content">
+        <h1>Promag Ampuh Atasi Sakit Maag, Nyeri Lambung dan Perut Kembung</h1>
+        <p>Promag hadir di Indonesia sejak tahun 1971 dan telah melindungi lambung yang dipercaya dari generasi ke generasi. Seiring perkembangan zaman, Promag terus berinovasi untuk menghadirkan produk-produk berkualitas untuk meredakan nyeri lambung dan perut kembung akibat maag. Kini Promag hadir dengan lebih banyak varian produk yang terbagi menjadi Promag tablet, Promag Double Action, Promag cair dalam kemasan sachet dan kemasan botol serta Promag Herbal.</p>
+        <p>Promag merupakan solusi cepat atasi dan redakan sakit maag, nyeri lambung serta perut kembung. Dengan kandungan bahan aktif antasida, seperti kalsium karbonat, magnesium hidroksida, dan hydrotalcite, Promag terbukti efektif menetralkan asam lambung sehingga gejala maag seperti perut kembung, mual, perih saat sebelum atau setelah makan bisa teratasi.</p>
+        <h2>Promag Aman Bagi Anak-anak, Ibu Hamil dan Menyusui</h2>
+        <p>Apakah Promag aman dikonsumsi oleh ibu hamil, menyusui serta anak-anak?. Promag tablet, cair, dan Double Action terbukti secara klinis aman bagi ibu hamil dan menyusui karena kandungannya tidak diserap ASI. Begitu juga dengan anak-anak yang dapat dengan aman mengkonsumsi Promag. Meskipun demikian, sangat disarankan untuk berkonsultasi terlebih dahulu dengan dokter untuk mendapatkan informasi lebih lanjut</p>
+    </div>
+</div>
+<div class="wrapper">
+    <div class="button-wrapper">
+        <button class="btn-showmore" onclick="document.querySelector('.container-promag').classList.add('expanded'); this.classList.add('d-none');document.querySelector('.btn-showless').classList.remove('d-none');">Read More<i class="arrow down"></i></button>
+        <button class="btn-showless d-none" onclick="document.querySelector('.container-promag').classList.remove('expanded'); document.querySelector('.btn-showmore').classList.remove('d-none');this.classList.add('d-none');">Read Less<i class="arrow up"></i></button>
+    </div>
+</div>
 
 <script>
     $(function(){
@@ -301,6 +328,7 @@
 
         $(slider).on('beforeChange', function(event, slick, currentSlide, nextSlide){
             /*button arrow*/
+            $(".slide-now").html(nextSlide + 1);
             var num = nextSlide+1;
             if(nextSlide < 1){
                 $('.btn-control-maagmeter .btn-prev').addClass('gone');
@@ -325,6 +353,8 @@
                 topindd = ((nextSlide+1) / countslide) * 100;
             indicator.find('span').css('width',topindd+'%');
             /*end indicator*/
+            
+            $(".col-2").html(topindd+'%')
         });
 
 
